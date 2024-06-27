@@ -1,0 +1,16 @@
+@import url("style/header.css");
+
+*{ /*Seletor universal para resetar as bordas da páginas*/
+    padding:0px;
+    margin:0px;
+}
+
+
+:root{/*seletor raiz para variáveis*/
+    --cor-de-fundo:#56d085;
+    --cor-da-letra:#ffd000;
+    --cor-branco:white;
+}
+body{/*seletor body*/
+    background-color:var(--cor-de-fundo)
+}
